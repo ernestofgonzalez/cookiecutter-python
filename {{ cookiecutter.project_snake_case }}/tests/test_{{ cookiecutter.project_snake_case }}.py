@@ -1,5 +1,5 @@
-from {{ cookiecutter.project_snake_case }} import roads
+from {{ cookiecutter.project_snake_case }} import example
 
 
-def test_roads():
-    assert roads() == "Roads?"
+def test_example():
+    assert example() == "Roads?"
