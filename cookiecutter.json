@@ -4,5 +4,8 @@
     "project_kebab_case": "{{ cookiecutter.project_snake_case|replace('_', '-') }}",
     "project_description": "",
     "author_name": "",
-    "author_github_username": ""
+    "author_github_username": "",
+    "_copy_without_render": [
+        "*.github/workflows"
+    ]
 }
