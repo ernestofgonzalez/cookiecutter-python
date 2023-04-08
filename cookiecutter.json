@@ -1,7 +1,7 @@
 {
     "project_name": "",
     "project_snake_case": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
-    "project_kebab_case": "{{ cookiecutter.project_snake_case|replace('_', '-')",
+    "project_kebab_case": "{{ cookiecutter.project_snake_case|replace('_', '-') }}",
     "project_description": "",
     "author_name": "",
     "github_author_username": ""
