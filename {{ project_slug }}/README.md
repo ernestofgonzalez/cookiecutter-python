@@ -21,7 +21,7 @@ Before getting started, you'll need a local [pip](https://github.com/pypa/pip) i
 Install {{ cookiecutter.project_name }} library using [pip](https://github.com/pypa/pip):
 
 ```bash
-$ pip install {{ cookiecutter.project_snake_case }}
+pip install {{ cookiecutter.project_snake_case }}
 ```
 
 ## Usage

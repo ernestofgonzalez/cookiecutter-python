@@ -9,7 +9,7 @@ Before getting started, make sure to install [cookiecutter](https://github.com/c
 You can easily install it using [pip](https://github.com/pypa/pip):
 
 ```bash
-$ pip install cookiecutter
+pip install cookiecutter
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ $ pip install cookiecutter
 To create a new project, simply run the following command in your terminal:
 
 ```bash
-$ cookiecutter gh:ernestofgonzalez/cookiecutter-python
+cookiecutter gh:ernestofgonzalez/cookiecutter-python
 ```
 
 You will be prompted to enter your project details, after which the project structure will be generated.
