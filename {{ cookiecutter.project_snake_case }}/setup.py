@@ -16,8 +16,8 @@ setup(
     name="{{ cookiecutter.project_snake_case }}",
     description="{{ cookiecutter.project_description }}",
     long_description=get_long_description(),
-    long_description_content_type="text/markdown",{% if cookiecutter.github_author_username %}
-    author="{{ cookiecutter.author_name }}",{% endif %}{% if cookiecutter.github_author_username %}
+    long_description_content_type="text/markdown",{% if cookiecutter.author_github_username %}
+    author="{{ cookiecutter.author_name }}",{% endif %}{% if cookiecutter.author_github_username %}
     url="https://github.com/{{ cookiecutter.author_github_username }}/{{ cookiecutter.project_kebab_case }}",
     project_urls={
         "Issues": "https://github.com/{{ cookiecutter.author_github_username }}/{{ cookiecutter.project_kebab_case }}/issues",

@@ -4,5 +4,5 @@
     "project_kebab_case": "{{ cookiecutter.project_snake_case|replace('_', '-') }}",
     "project_description": "",
     "author_name": "",
-    "github_author_username": ""
+    "author_github_username": ""
 }
